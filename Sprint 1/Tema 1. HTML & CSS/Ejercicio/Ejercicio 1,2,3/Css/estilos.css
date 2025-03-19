@@ -35,6 +35,7 @@ header{
     margin-top: 0px;
 }
 aside{
+  
     width: 920px;
     height: 315px;
     display:flex;
@@ -98,7 +99,9 @@ width: 250px;
     background-color: yellow;
     border: 10px solid black;
     height: 70px;
+    transition: background 2s;
 }
+
 figure{
     margin-top: 8%;
     display: flex;
@@ -112,21 +115,27 @@ figure{
     background-color: brown;
     width: 150px;
     border: 2px solid black;
-    height: 17%;
+    height: 20%;
+    text-align: justify;
     background-color: brown;
-    text-align: center;
+
     margin-left: 20%;
+    transition: background 2s;
 }
+
 .publicidad2{
     width: 150px;
-    height: 17%;
+    height: 20%;
     background-color: brown;
     border: 2px solid black;
     margin-top: 1%;
-    text-align: center;
+    text-align: justify;
+
     margin-left: 20%;
+    transition: background 2s;
     
 }
+
 footer{
     
     margin-top: 0px;
@@ -135,5 +144,11 @@ footer{
     height: 60px;
     background-color: aqua;
     border: 10px solid black;
+    transition: background 1s;
+    
+}
+
+
+@media screen and(min-width: 481px){
     
 }
