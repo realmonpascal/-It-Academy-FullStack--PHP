@@ -1,0 +1,152 @@
+body{
+width: 1200px;
+
+    
+}
+
+header{
+
+  
+    display: flex;
+    flex-direction: warp;
+    height: 400px;
+    width: auto;
+    flex-direction: row;
+    background-image: url('header.jpg');
+    
+    background-position: center;
+}
+
+.logo{ 
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.inicio{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+  margin-right: 10%;
+ top: 20px;
+}
+.texto-inicio{
+    position: relative;
+    left: 23px;
+    bottom: 39px;
+}
+.casa{
+    margin-top: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.rutas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+  margin-right: 10%;
+ top: 23px;
+
+}
+
+.mapa{
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+}
+.rutas-texto{
+    margin-top: 24px;
+ margin-left: 5px;   
+}
+.vuelos{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 0%;
+  margin-right: 10%;
+ top: 23px;
+
+}
+
+.avion{
+    margin-top: 17px;
+    position: relative;
+    right: 10px;
+    width: 20px;
+    height: 20px;  
+}
+.texto-vuelo{
+    position: relative;
+    left: 2px;
+}
+
+.Hotel{ 
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 0%;
+  margin-right: 10%;
+ top: 23px;
+
+
+}
+.hotel{
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;  
+}
+
+.texto-hotel{
+    position: relative;
+    left: 10px;
+}
+.contacto{
+    width: 20px;
+    height: 20px;  
+}
+.contactanos{ 
+    margin-top: 20px;
+    margin-right: 10%;
+}
+texto-contacto{
+    position: relative;
+    right:  30px;
+}
+.contactos{
+    position: relative;
+    left: 30px;
+    bottom: 35px;
+}
+
+.social{
+    margin-top: 18px;
+
+}
+.facebook{
+    width: 19px;
+    height: 19px; 
+    margin-right: 10px;
+
+}
+.twitter{
+    position: relative;
+    left: 40px;
+    bottom: 24px;
+    width: 20px;
+    height: 20px; 
+ 
+}
+.fondo1{
+    width: 90%;
+    height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+   
+    position: relative;
+    
