@@ -4,16 +4,18 @@ body{
    
 }
 header{
-    background-color: red;
+    background-color: white;
+    height: 90px;
     width: 1200px;
- height: 60px;
+
     display: flex;
     flex-wrap: flex-start;
   
 }
 .logo{
+    background-color: red;
     border: 10px solid black;
-    height: 50px;
+    height: 70px;
     width: 5%;
     margin-top: 0px;
      flex-grow: 1;
@@ -21,16 +23,18 @@ header{
     
 }
 .social{   
+    background-color: red;
     border: 10px solid black;
     flex-grow: 1;
     margin-top: 0px;
     width: auto;
-    height: 50px;
+    height: 70px;
 }
 .nav{ 
+    background-color: red;
     width: 40%;
     border: 10px solid black;
-    height: 50px;
+    height: 70px;
     flex-grow: 1;
     margin-top: 0px;
 }
@@ -98,7 +102,7 @@ width: 250px;
     margin-top: 0px;
     background-color: yellow;
     border: 10px solid black;
-    height: 70px;
+    height: 90px;
     transition: background 2s;
 }
 
