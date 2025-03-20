@@ -5,6 +5,7 @@ body{
 }
 header{
     background-color: white;
+    border: 10px solid black;
     height: 90px;
     width: 1200px;
 
@@ -14,7 +15,7 @@ header{
 }
 .logo{
     background-color: red;
-    border: 10px solid black;
+    border: 10px solid gray;
     height: 70px;
     width: 5%;
     margin-top: 0px;
@@ -24,7 +25,7 @@ header{
 }
 .social{   
     background-color: red;
-    border: 10px solid black;
+    border: 10px solid gray;
     flex-grow: 1;
     margin-top: 0px;
     width: auto;
@@ -33,7 +34,7 @@ header{
 .nav{ 
     background-color: red;
     width: 40%;
-    border: 10px solid black;
+    border: 10px solid gray;
     height: 70px;
     flex-grow: 1;
     margin-top: 0px;
@@ -51,35 +52,35 @@ aside{
     flex-grow: 1;
 }
 .article1{   
-    border: 10px solid black;
+    border: 10px solid gray;
     background-color: blue;
     width: 440px;
     height: 82px;
     margin: 0%;
 }
 .article2{   
-    border: 10px solid black;
+    border: 10px solid gray;
     background-color: blue;
     width: 440px;
     height: 82px;
     margin: 0%;
 }
 .article3{   
-    border: 10px solid black;
+    border: 10px solid gray;
     background-color: blue;
     width: 440px;
     height: 82px;
     margin: 0%;
 }
 .article4{   
-    border: 10px solid black;
+    border: 10px solid gray;
     background-color: blue;
     width: 440px;
     height: 82px;
     margin: 0%;
 }
 .navegacion{
-    border: 10px solid black;
+    border: 10px solid gray;
     background-color: gold;
     width: 100%;
     height: 30%;
@@ -99,11 +100,23 @@ width: 250px;
     background-color: aqua;
 }
 .Banner{
-    margin-top: 0px;
+   
     background-color: yellow;
+    border: 10px solid gold;
+    height: 60%;
+    width: 95%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto ;
+  
+}
+.banner{ display:flex;
+    margin-top: 0px;
+    height: 140px;
+    width: 1200px;
     border: 10px solid black;
-    height: 90px;
-    transition: background 2s;
+    background-color: gold;
 }
 
 figure{
@@ -118,10 +131,10 @@ figure{
     margin-top: 10%;
     background-color: brown;
     width: 150px;
-    border: 2px solid black;
+    border: 2px solid brown;
     height: 20%;
     text-align: justify;
-    background-color: brown;
+  
 
     margin-left: 20%;
     transition: background 2s;
@@ -131,7 +144,7 @@ figure{
     width: 150px;
     height: 20%;
     background-color: brown;
-    border: 2px solid black;
+    border: 2px solid brown;
     margin-top: 1%;
     text-align: justify;
 
@@ -170,7 +183,7 @@ border: 10px solid black;
     }
     .logo{
         background-color: red;
-        border: 5px solid black;
+        border: 5px solid gray;
         height: 28%;
         width:  99%;
         margin-bottom: 0px;
@@ -182,7 +195,7 @@ border: 10px solid black;
     }
     .social{   
         background-color: red;
-        border: 5px solid black;
+        border: 5px solid gray;
         flex: grow 1;
         margin-top: 0px;
         position: relative;
@@ -198,7 +211,7 @@ border: 10px solid black;
         position: relative;
         
         margin-bottom: 0px;
-        border: 5px solid black;
+        border: 5px solid gray;
         height: 28%;
         flex: grow 1;
         margin-top: 0px;
@@ -216,35 +229,35 @@ border: 10px solid black;
         flex-grow: 1;
     }
     .article1{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
         width: 248.7px;
         height: 70px;
         margin: 0%;
     }
     .article2{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
         width: 248.7px;
         height: 70px;
         margin: 0%;
     }
     .article3{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
         width: 248.7px;
         height: 70px;
         margin: 0%;
     }
     .article4{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
         width: 248.7px;
         height: 70px;
         margin: 0%;
     }
     .navegacion{
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: gold;
         width: 100%;
         height: 30%;
@@ -268,12 +281,24 @@ border: 10px solid black;
         background-color: aqua;
     }
     .Banner{
-        width: 70%;
-        margin-top: 0px;
+   
         background-color: yellow;
+        border: 10px solid gold;
+        height: 70%;
+        width: 95%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto ;
+      
+    }
+  
+    .banner{ display:flex;
+        margin-top: 0px;
+        height: 140px;
+        width: 70%;
         border: 10px solid black;
-        height: 70px;
-     
+        background-color: gold;
     }
     .publicidad{
         position: relative;
@@ -287,7 +312,7 @@ border: 10px solid black;
       
         background-color: brown;
         width: 90%;
-        border: 2px solid black;
+        border: 2px solid brown;
         height: 70%;
         text-align: justify;
         background-color: brown;
@@ -301,7 +326,7 @@ border: 10px solid black;
         width: 90%;
         height: 70%;
         background-color: brown;
-        border: 2px solid black;
+        border: 2px solid brown;
         margin-top: 1%;
         text-align: justify;
     
@@ -345,7 +370,7 @@ border: 10px solid black;
     }
     .logo{
         background-color: red;
-        border: 5px solid black;
+        border: 5px solid gray;
         height: 28%;
         width:  99%;
         margin-bottom: 0px;
@@ -357,7 +382,7 @@ border: 10px solid black;
     }
     .social{   
         background-color: red;
-        border: 5px solid black;
+        border: 5px solid gray;
         flex: grow 1;
         margin-top: 0px;
         position: relative;
@@ -373,7 +398,7 @@ border: 10px solid black;
         position: relative;
         
         margin-bottom: 0px;
-        border: 5px solid black;
+        border: 5px solid gray;
         height: 28%;
         flex: grow 1;
         margin-top: 0px;
@@ -392,40 +417,40 @@ border: 10px solid black;
         flex-grow: 1;
     }
     .article1{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
-        width: auto;
+        width: 92.5%;
         height: 70px;
         margin: 0%;
         flex: grow 1;
     }
 
     .article2{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
-        width: auto;
+        width: 92.5%;
         height: 70px;
         margin: 0%;
         flex: grow 1;
     }
     .article3{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
-        width: auto;
+        width: 92.5%;
         flex: grow 1;
         height: 75px;
         margin: 0%;
     }
     .article4{   
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: blue;
-        width: auto;
+        width: 92.5%;
         height: 70px;
         flex: grow 1;
         margin: 0%;
     }
     .navegacion{
-        border: 10px solid black;
+        border: 10px solid gray;
         background-color: gold;
         width: 96%;
         flex: grow 1;
@@ -436,15 +461,7 @@ border: 10px solid black;
       
      
     }
-    .caja1{
-        position: relative;
-        top: 40px;
 
-      
-    }
-    .caja2{
-        
-    }
     main{
         display: flex;
         flex-direction: column;
@@ -462,12 +479,24 @@ border: 10px solid black;
         background-color: aqua;
     }
     .Banner{
-        width: 70%;
-        margin-top: 0px;
+   
         background-color: yellow;
+        border: 10px solid gold;
+        height: 70%;
+        width: 95%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto ;
+      
+    }
+  
+    .banner{ display:flex;
+        margin-top: 0px;
+        height: 140px;
+        width: 70%;
         border: 10px solid black;
-        height: 70px;
-     
+        background-color: gold;
     }
     .publicidad{
         position: relative;
@@ -480,9 +509,9 @@ border: 10px solid black;
     .publicidad1{
       
         background-color: brown;
-        width: 90%;
-        border: 2px solid black;
-        height: 70%;
+        width: 80%;
+        border: 2px solid brown;
+        height: 60%;
         text-align: justify;
         background-color: brown;
     margin-top: 4%;
@@ -492,8 +521,8 @@ border: 10px solid black;
     }
     
     .publicidad2{
-        width: 90%;
-        height: 70%;
+        width: 80%;
+        height: 60%;
         background-color: brown;
         border: 2px solid black;
         margin-top: 1%;
