@@ -149,4 +149,17 @@ texto-contacto{
   margin-right: auto;
    
     position: relative;
-    
+    background-color: black;
+    opacity: 10%;
+    bottom: 150px;
+   
+
+} 
+.titulo{
+    color: orange;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+  
+}
