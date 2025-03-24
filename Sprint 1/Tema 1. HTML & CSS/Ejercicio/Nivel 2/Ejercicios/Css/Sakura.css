@@ -13,31 +13,55 @@ header{
     width: auto;
     flex-direction: row;
     background-image: url('header.jpg');
-    
+
+    animation-name: cambio-de-fondo-titulo;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
     background-position: center;
+
+}
+.navegacion{
+    width: 60%;
+    height: 20%;
+    display: flex;
+
+}
+.partelogo{
+    width: 20%;
+
+    height: 20%;
+
 }
 
 .logo{ 
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 70px;
-    height: 70px;
+
+    margin-left: 10%;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
 }
 
 .inicio{
 
     display: flex;
-    flex-direction: row;
-    margin-left: 10%;
-  margin-right: 10%;
+    width: 20%;
  top: 20px;
+
+}
+.inicio:hover{
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 4px;
 }
 .texto-inicio{
     position: relative;
-    left: 23px;
-    bottom: 39px;
+    bottom: 25px;
+    margin-left: 60%;
+   margin-top: 10%;
+
 }
 .casa{
+    margin-left: 4%;
     margin-top: 25px;
     width: 20px;
     height: 20px;
@@ -45,106 +69,179 @@ header{
 
 
 .rutas{
+    
     display: flex;
-    flex-direction: row;
-    margin-left: 0%;
-  margin-right: 10%;
- top: 23px;
+    width: 20%;
+ top: 20px;
+
+
+}
+.rutas:hover{
+    background-color: goldenrod;
+
+ padding: 5px;
+    border-radius: 4px;
 
 }
 
-.mapa{
-    width: 20px;
-    height: 20px;
-    margin-top: 22px;
+.mapa{ 
+    margin-left: 5%;
+    margin-top: 12px;
+    width: 25px;
+    height: 25px;
 }
 .rutas-texto{
-    margin-top: 24px;
- margin-left: 5px;   
-}
+    margin-top: 20%;
+ margin-left: 5%;  
+
+ width: 25%;
+ height: 20%;
+} 
+
 .vuelos{
 
     display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    margin-left: 0%;
-  margin-right: 10%;
- top: 23px;
+   height: auto;
+   width: 20%;
 
+
+}
+.vuelos:hover{
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 4px;
+    
 }
 
 .avion{
-    margin-top: 17px;
-    position: relative;
+    margin-top: 16%;
+  margin-left: 5%;
     right: 10px;
     width: 20px;
     height: 20px;  
 }
 .texto-vuelo{
     position: relative;
-    left: 2px;
+margin-top: 6%;
+margin-left: 2px;
+}
+
+
+
+.Hotel:hover{
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .Hotel{ 
 
     display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
     flex-direction: row;
-    margin-top: 5px;
-    margin-left: 0%;
-  margin-right: 10%;
+width: 20%;
+
  top: 23px;
 
 
 }
+.motel{
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-bottom: auto ;
+}
 .hotel{
-    margin-top: 15px;
+ margin-top: 95%;
+  position: relative;
     width: 20px;
-    height: 20px;  
+    height: 20px;
+
 }
 
-.texto-hotel{
-    position: relative;
-    left: 10px;
+.texto-hotel{ 
+    margin-top: 20%;
+ margin-left: 5%;  
+
+ width: 35%;
+ height: 20%;
 }
 .contacto{
+    margin-left: 5%;
+    margin-top: 15%;
     width: 20px;
     height: 20px;  
 }
 .contactanos{ 
-    margin-top: 20px;
-    margin-right: 10%;
+width: 20%;
 }
 texto-contacto{
+  
     position: relative;
     right:  30px;
+    right: 5px;
+}
+.contactanos:hover{
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 4px;
+    
 }
 .contactos{
     position: relative;
     left: 30px;
-    bottom: 35px;
+    bottom: 34px;
 }
 
+
 .social{
-    margin-top: 18px;
+    display: flex;
+    margin-top: 7px;
+    margin-left: 50px;
+    width: 20%;
+    height: 20%;
+    
+  
 
 }
 .facebook{
+  
     width: 19px;
     height: 19px; 
     margin-right: 10px;
 
 }
-.twitter{
-    position: relative;
-    left: 40px;
-    bottom: 24px;
+.twittea{
+    margin-top: 6%;
+    margin-left: 1%;
+
+position: relative;
+
+
+width: 20px;
+height: 20px;
+
+}
+.faceboook{
+    margin-top: 6%;
+    margin-left: 16%;
+   
     width: 20px;
-    height: 20px; 
+    height: auto;
+    
+
+}
+.twitter{
+
  
+    width: 100%;
+    height: 100%; 
+    margin-right: 10px;
 }
 .fondo1{
     width: 90%;
-    height: 130px;
+    height: 150px;
   margin-left: auto;
   margin-right: auto;
    
@@ -155,11 +252,1527 @@ texto-contacto{
    
 
 } 
+
+
 .titulo{
     color: orange;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     position: relative;
-    bottom: 250px;
+    bottom: 260px;
+    opacity: 25%;
+    
   
 }
+
+/*---Aside---*/
+aside{
+    position: relative;
+    bottom: 220px;
+
+    display: flex;
+  margin-left: 0%;
+    width: 100%;
+    height: 1200px;
+
+   
+
+}
+/*---Aside---*/
+
+
+
+/*---Articulos---*/
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    border: solid gainsboro 10px;
+    background-color: gainsboro;
+}
+
+/*---Bloque de articulos 1---*/
+.articulo12{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 95%;
+   
+
+
+}
+/*---Bloque de articulos 1---*/
+
+
+.articulo1{
+position: relative;
+ display: flex;
+ flex-direction: column;
+
+    height: 49%;
+    
+    background-color: rgb(242, 241, 241);
+
+}
+.articulo2{
+    margin-top: 20px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    
+    height: 49%;
+        
+        background-color: rgb(242, 241, 241);
+    
+    }
+
+
+/*---Bloque de articulos 2---*/
+    .articulo34{
+        display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 48.5%;
+    height: 95%;
+ 
+
+    }
+
+/*---Bloque de articulos 2---*/
+
+
+
+
+/*----Imagenes del Articulo----*/
+.imagen-articulo4{
+    width: 95%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+   background-image: url('noche.jpg');
+   background-size: cover;
+}
+.imagen-articulo3{
+    width: 95%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+   background-image: url('comida.jpg');
+   background-size: cover;
+
+}
+.imagen-articulo2{
+    width: 95%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-image: url("fuji.jpg");
+    background-size: cover;
+
+}
+.imagen-articulo1{
+    width: 95%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+background-image: url("sakura.jpg");
+background-size: cover;
+
+
+}
+/*----Imagenes del Articulo----*/
+
+
+
+/*---Texto superior imagen---*/
+
+
+.texto-imagen-articulo{
+width: 90%;
+
+height: 10%;
+margin-top: 52%;
+margin-left: 1%;
+
+    color:  rgb(239, 239, 113);
+}
+/*---Texto superior image---*/
+
+
+/*---Titulo del articulo---*/
+.titulo-articulo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   font-family: sans-serif;
+    margin-top: 5px;
+
+    color: aliceblue;
+    width: 95%;
+    height: 8%;
+    background-color: rgb(245, 88, 93);
+
+    .posicion-titulo{
+        width: 90%;
+        margin-top: 4%;
+        height: 10%;
+
+
+    }
+
+
+
+}
+/*---Titulo del articulo---*/
+
+
+/*---Texto del articulo---*/
+
+.articulo-texto{
+    display: flex;
+    width: 100%;
+    height: 35%;
+}
+.texto-articulo{
+    width: 50%;
+    margin-left: 10px ;
+    margin-right: 10px;
+font-size: 15px;
+
+
+}
+
+.texto-articulo1{
+    text-align: left;
+}
+
+.Leer-mas{
+    position: relative;
+ 
+}
+.Leer-mas1{
+position: relative;
+
+top: 55px;
+}
+.Leer-mas3{
+    position: relative;
+    
+    top: 35px;
+    }
+
+    .Leer-mas2{
+        position: relative;
+        
+        top: 35px;
+        }
+        .Leer-mas4{
+            position: relative;
+            
+            top: 35px;
+            }
+/*---Texto del articulo---*/
+
+
+/*--nav--*/
+
+.nav{
+    height: 80px;
+    position: relative;
+    weidth:  90%;
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*--nav--*/
+
+
+/*---Articulos---*/
+
+
+
+
+
+/*--Publicidad--*/
+.publicidad{
+    width: 20%;
+    height: auto;
+    margin-left: 10px;
+    border: solid gainsboro 10px;
+    background-color:  gainsboro;
+
+   
+}
+
+.titulo-publicidad{
+    text-align: center;
+}
+.publicidad-texto{
+
+    margin-left: auto;
+    text-align: center;
+
+}
+
+/*--Publicidad--*/
+
+
+
+/*--footer--*/
+
+footer{
+    background-color: gainsboro;
+    display: flex;
+position: relative;
+  bottom: 210px;
+  height: 30px;
+}
+.posicion{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto ;
+    height: 100%;
+    width: 95%;
+    background-color: rgb(242, 241, 241);
+ 
+}
+.texto-footer{
+ margin-bottom: 20%;
+   position: relative;
+   bottom: 10px;
+text-align: center;
+height: 90%;
+width: 90%;
+}
+
+
+/*--footer--*/
+
+@keyframes cambio-de-fondo-titulo{
+  
+   
+
+    to{
+ padding: 100px;
+    }
+
+}
+
+@media (max-width :768px){
+
+    body{
+        width: 768px;
+        
+            
+        }
+        
+        header{
+        
+          
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 600px;
+            width: auto;
+            flex-direction: row;
+            background-image: url('header.jpg');
+        
+            animation-name: cambio-de-fondo-titulo;
+            animation-duration: 0.5s;
+            animation-timing-function: linear;
+      
+            background-position: cover-center;
+            background-size: cover-center;
+        
+        }
+        .navegacion{
+            position: relative;
+            bottom: 104px;
+            width: 100%;
+            height: 15%;
+            display: flex;
+          
+        
+        }
+        .partelogo{
+         
+            width: 100%;
+        
+            height: 15%;
+        
+        }
+        
+        .logo{ 
+        
+       
+            position: relative;
+           right: 50px;
+            width: 50px;
+            height: 50px;
+        }
+        
+        .inicio{
+        
+            display: flex;
+            width: 20%;
+         top: 20px;
+        
+        }
+        .inicio:hover{
+            background-color: goldenrod;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .texto-inicio{
+            position: relative;
+            bottom: 25px;
+            margin-left: 60%;
+           margin-top: 10%;
+        
+        }
+        .casa{
+            margin-left: 4%;
+            margin-top: 27px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        
+        .rutas{
+            
+            display: flex;
+            width: 20%;
+         top: 20px;
+        
+        
+        }
+        .rutas:hover{
+            background-color: goldenrod;
+        
+         padding: 5px;
+            border-radius: 4px;
+        
+        }
+        
+        .mapa{ 
+            margin-left: 5%;
+            margin-top: 12px;
+            width: 25px;
+            height: 25px;
+        }
+        .rutas-texto{
+            margin-top: 20%;
+         margin-left: 5%;  
+        
+         width: 25%;
+         height: 20%;
+        } 
+        
+        .vuelos{
+        
+            display: flex;
+           height: auto;
+           width: 20%;
+        
+        
+        }
+        .vuelos:hover{
+            background-color: goldenrod;
+            padding: 5px;
+            border-radius: 4px;
+            
+        }
+        
+        .avion{
+            margin-top: 16%;
+          margin-left: 5%;
+            right: 10px;
+            width: 20px;
+            height: 20px;  
+        }
+        .texto-vuelo{
+            position: relative;
+        margin-top: 8%;
+        margin-left: 2px;
+        }
+        
+        
+        
+        .Hotel:hover{
+            background-color: goldenrod;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        
+        .Hotel{ 
+        
+            display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           
+            flex-direction: row;
+        width: 20%;
+        
+         top: 23px;
+        
+        
+        }
+        .motel{
+            margin-top: 6%;
+            margin-left: 4%;
+            margin-bottom: auto ;
+        }
+        .hotel{
+         margin-top: 95%;
+          position: relative;
+            width: 20px;
+            height: 20px;
+        
+        }
+        
+        .texto-hotel{ 
+            margin-top: 20%;
+         margin-left: 5%;  
+        
+         width: 35%;
+         height: 20%;
+        }
+        .contacto{
+            margin-left: 5%;
+            margin-top: 13%;
+            width: 20px;
+            height: 20px;  
+        }
+        .contactanos{ 
+        width: 20%;
+        }
+        .contactos{
+            margin-top: 20px;
+        }
+     
+        .contactanos:hover{
+            background-color: goldenrod;
+            padding: 5px;
+            border-radius: 4px;
+            
+        }
+        .contactos{
+            position: relative;
+            left: 30px;
+            bottom: 34px;
+        }
+        
+        
+        .social{
+            display: flex;
+            position: relative;
+            bottom: 215px;
+            right: 50px;
+   
+            width: 768px;
+            height: 15%;
+            
+          
+        
+        }
+        .facebook{
+          
+            width: 19px;
+            height: 19px; 
+       
+        
+        }
+        .twittea{
+      
+      
+        
+        position: relative;
+        bottom: 30px;
+        right: 70px;
+        width: 20px;
+        height: 20px;
+        
+        }
+        .faceboook{
+            
+      
+        position: relative;
+        bottom: 30px;
+        right: 70px;
+            width: 20px;
+            height: auto;
+            
+        
+        }
+        .twitter{
+        
+         
+            width: 100%;
+            height: 100%; 
+            margin-right: 10px;
+        }
+        .fondo1{
+            width: 90%;
+            height: 150px;
+          margin-left: auto;
+          margin-right: auto;
+           
+            position: relative;
+            background-color: black;
+            opacity: 10%;
+            bottom: 150px;
+           
+        
+        } 
+        
+        
+        .titulo{
+            color: orange;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+            position: relative;
+            bottom: 260px;
+            opacity: 25%;
+            
+          
+        }
+        
+        /*---Aside---*/
+        aside{
+            position: relative;
+            bottom: 220px;
+        
+            display: flex;
+            flex-wrap: wrap;
+          margin-left: 0%;
+            width: 100%;
+            height: 1200px;
+        
+           
+        
+        }
+        /*---Aside---*/
+        
+        
+        
+        /*---Articulos---*/
+        .articulos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 920px;
+            border: solid gainsboro 10px;
+            background-color: gainsboro;
+        }
+        
+        /*---Bloque de articulos 1---*/
+        .articulo12{
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+            height: 95%;
+           
+        
+        
+        }
+        /*---Bloque de articulos 1---*/
+        
+        
+        .articulo1{
+        position: relative;
+         display: flex;
+         flex-direction: column;
+        
+            height: 49%;
+            
+            background-color: rgb(242, 241, 241);
+        
+        }
+        .articulo2{
+            margin-top: 10px;
+            position: relative;
+            display:flex;
+            flex-direction: column;
+            
+            height: 49%;
+                
+                background-color: rgb(242, 241, 241);
+            
+            }
+        
+        
+        /*---Bloque de articulos 2---*/
+            .articulo34{
+                display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            width: 49%;
+            height: 95%;
+         
+        
+            }
+        
+        /*---Bloque de articulos 2---*/
+        
+        
+        
+        
+        /*----Imagenes del Articulo----*/
+        .imagen-articulo4{
+            width: 95%;
+            height: 43%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+           background-image: url('noche.jpg');
+           background-size: cover;
+        }
+        .imagen-articulo3{
+            width: 95%;
+            height: 43%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+           background-image: url('comida.jpg');
+           background-size: cover;
+        
+        }
+        .imagen-articulo2{
+            width: 95%;
+            height: 43%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+            background-image: url("fuji.jpg");
+            background-size: cover;
+        
+        }
+        .imagen-articulo1{
+            width: 95%;
+            height: 43%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+        background-image: url("sakura.jpg");
+        background-size: cover;
+        
+        
+        }
+        /*----Imagenes del Articulo----*/
+        
+        
+        
+        /*---Texto superior image---*/
+        
+        
+        .texto-imagen-articulo{
+        width: 90%;
+        
+        height: 10%;
+        margin-top: 45%;
+        margin-left: 1%;
+        
+            color:  rgb(239, 239, 113);
+        }
+        /*---Texto superior image---*/
+        
+        
+        /*---Titulo del articulo---*/
+        .titulo-articulo{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+           font-family: sans-serif;
+            margin-top: 5px;
+        
+            color: aliceblue;
+            width: 95%;
+            height: 10%;
+            background-color: rgb(245, 88, 93);
+        
+            .posicion-titulo{
+                width: 90%;
+                margin-top: 4%;
+                height: 10%;
+        
+        
+            }
+        
+        
+        
+        }
+        /*---Titulo del articulo---*/
+        
+        
+        /*---Texto del articulo---*/
+        
+        .articulo-texto{
+            display: flex;
+            width: 100%;
+            height: 35%;
+        }
+        .texto-articulo{
+            width: 50%;
+            margin-left: 10px ;
+            margin-right: 10px;
+        font-size: small;
+        
+        
+        }
+        
+        .texto-articulo1{
+            font-size: small;
+            text-align: left;
+        }
+        
+        .Leer-mas{
+            font-size: small;
+            position: relative;
+         
+        }
+        .Leer-mas1{
+            font-size: small;
+        position: relative;
+   top: 20px;
+     
+        }
+        .Leer-mas3{
+            position: relative;
+            top: 5px;
+            
+            }
+        
+            .Leer-mas2{
+                font-size: small;
+                position: relative;
+                top: 19px;
+                
+                }
+                .Leer-mas4{
+                    font-size: small;
+                    position: relative;
+                    top: 20px;
+                    
+                 
+                    }
+        /*---Texto del articulo---*/
+        
+        
+        /*--nav--*/
+        
+        .nav{
+            height: 200px;
+            position: relative;
+            weidth:  614.4px;
+            font-size: small;
+        text-align: center;
+right: 372.5px;
+        top: 435px;
+        }
+        
+        
+        /*--nav--*/
+        
+        
+        /*---Articulos---*/
+        
+        
+        
+        
+        
+        /*--Publicidad--*/
+        .publicidad{
+          margin-left: auto;
+            flex-wrap: wrap;
+     margin-top: 0px ;
+            width: 768px;
+            height: 200px;
+          
+            border: solid gainsboro 10px;
+            background-color:  gainsboro;
+        
+           
+        }
+        
+        .titulo-publicidad{
+            text-align: center;
+        }
+        .publicidad-texto{
+        
+            margin-left: auto;
+            text-align: center;
+        
+        }
+        
+        /*--Publicidad--*/
+        
+        
+        
+        /*--footer--*/
+        
+        footer{
+            background-color: gainsboro;
+            display: flex;
+        position: relative;
+   
+      margin-top: 5px;
+          height: 30px;
+        }
+        .posicion{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto ;
+            height: 100%;
+            width: 95%;
+            background-color: rgb(242, 241, 241);
+         
+        }
+        .texto-footer{
+         margin-bottom: 20%;
+           position: relative;
+           bottom: 10px;
+        text-align: center;
+        height: 90%;
+        width: 90%;
+        }
+        
+        
+        /*--footer--*/
+        
+        @keyframes cambio-de-fondo-titulo{
+          
+           
+        
+            to{
+         padding: 100px;
+            }
+        
+        }
+        
+
+
+
+
+}
+
+
+@media (max-width: 480px){
+    body{
+        width: 480px;
+    }
+
+            
+    header{
+        
+          
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 600px;
+        width: auto;
+        flex-direction: row;
+        background-image: url('header.jpg');
+    
+        animation-name: cambio-de-fondo-titulo;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+  
+        background-position: cover-center;
+        background-size: cover-center;
+    
+    }
+    .navegacion{
+        position: relative;
+        bottom: 100px;
+        width: 100%;
+        height: 10%;
+        display: flex;
+      
+    
+    }
+    .partelogo{
+     
+        width: 100%;
+    
+        height: 15%;
+    
+    }
+    
+    .logo{ 
+    
+   
+        position: relative;
+       right: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .inicio{
+    
+        display: flex;
+        width: 20%;
+     top: 20px;
+    
+    }
+    .inicio:hover{
+        background-color: goldenrod;
+        padding: 2px;
+        border-radius: 4px;
+    }
+    .texto-inicio{
+        position: relative;
+        bottom: 26px;
+        font-size: medium;
+        margin-left: 60%;
+       margin-top: 10%;
+    
+    }
+    .casa{
+        margin-left: 4%;
+        margin-top: 27px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+    .rutas{
+        
+        display: flex;
+        width: 20%;
+     top: 20px;
+    
+    
+    }
+    .rutas:hover{
+        background-color: goldenrod;
+    
+     padding: 2px;
+        border-radius: 4px;
+    
+    }
+    
+    .mapa{ 
+        margin-left: 5%;
+        margin-top: 10px;
+        width: 25px;
+        height: 25px;
+    }
+    .rutas-texto{
+        margin-top: 22%;
+        position: relative;
+        top: 5px;
+     margin-left: 5%;  
+    
+     width: 25%;
+     height: 20%;
+    } 
+    
+    .vuelos{
+    
+        display: flex;
+       height: auto;
+       width: 20%;
+    
+    
+    }
+    .vuelos:hover{
+        background-color: goldenrod;
+        padding: 2px;
+        border-radius: 4px;
+        
+    }
+    
+    .avion{
+        margin-top: 20%;
+      margin-left: 5%;
+        right: 10px;
+        width: 20px;
+        height: 20px;  
+    }
+    .texto-vuelo{
+        position: relative;
+    margin-top: 8%;
+    margin-left: 2px;
+    }
+    
+    
+    
+    .Hotel:hover{
+        background-color: goldenrod;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    
+    .Hotel{ 
+    
+        display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       
+        flex-direction: row;
+    width: 20%;
+    
+     top: 23px;
+    
+    
+    }
+    .motel{
+        margin-top: 6%;
+        margin-left: 4%;
+        margin-bottom: auto ;
+    }
+    .hotel{
+     margin-top: 95%;
+      position: relative;
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    .texto-hotel{ 
+        margin-top: 25%;
+     margin-left: 5%;  
+    
+     width: 35%;
+     height: 20%;
+    }
+    .contacto{
+    position: relative;
+    right: 2px;
+        margin-top: 18%;
+        width: 20px;
+        height: 20px;  
+    }
+    .contactanos{ 
+    width: 20%;
+    }
+    .contactos{
+        font-size: 15px;
+        position: relative;
+        font-size: small;
+       right: 100px;
+        
+        margin-top: 20%;
+    }
+ 
+    .contactanos:hover{
+        background-color: goldenrod;
+        padding: 5px;
+        border-radius: 4px;
+        
+    }
+    .contactos{
+        position: relative;
+        left: 30px;
+        bottom: 34px;
+    }
+    .contact{
+
+        display: flex;
+        position: relative;
+      right: 6px;
+        margin-top: 5px;
+    }
+    
+    
+    .social{
+        display: flex;
+        position: relative;
+        bottom: 200px;
+        right: 40px;
+
+        width: 768px;
+        height: 15%;
+        
+      
+    
+    }
+    .facebook{
+      
+        width: 19px;
+        height: 19px; 
+   
+    
+    }
+    .twittea{
+  
+  
+    
+    position: relative;
+    bottom: 30px;
+    right: 70px;
+    width: 20px;
+    height: 20px;
+    
+    }
+    .faceboook{
+        
+  
+    position: relative;
+    bottom: 30px;
+    right: 70px;
+        width: 20px;
+        height: auto;
+        
+    
+    }
+    .twitter{
+    
+     
+        width: 100%;
+        height: 100%; 
+        margin-right: 10px;
+    }
+    .fondo1{
+        width: 90%;
+        height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+       
+        position: relative;
+        background-color: black;
+        opacity: 10%;
+        bottom: 150px;
+       
+    
+    } 
+    
+    
+    .titulo{
+        color: orange;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        position: relative;
+        bottom: 260px;
+        opacity: 25%;
+        
+      
+    }
+    
+    /*---Aside---*/
+    aside{
+        position: relative;
+        bottom: 255px;
+    
+        display: flex;
+        flex-wrap: wrap;
+      margin-left: 0%;
+        width: 100%;
+        height: 2000px;
+    
+       
+    
+    }
+    /*---Aside---*/
+    
+    
+    
+    /*---Articulos---*/
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 2000px;
+        border: solid gainsboro 10px;
+        background-color: gainsboro;
+    }
+    
+    /*---Bloque de articulos 1---*/
+    .articulo12{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 46%;
+       
+    
+    
+    }
+    /*---Bloque de articulos 1---*/
+    
+    
+    .articulo1{
+    position: relative;
+     display: flex;
+     flex-direction: column;
+    
+        height: 49.5%;
+        
+        background-color: rgb(242, 241, 241);
+    
+    }
+    .articulo2{
+        margin-top: 10px;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        
+        height: 49.5%;
+            
+            background-color: rgb(242, 241, 241);
+        
+        }
+    
+    
+    /*---Bloque de articulos 2---*/
+        .articulo34{
+            display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 46%;
+     
+    
+        }
+    
+    /*---Bloque de articulos 2---*/
+    
+    
+    
+    
+    /*----Imagenes del Articulo----*/
+    .imagen-articulo4{
+        width: 95%;
+        height: 43%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+       background-image: url('noche.jpg');
+       background-size: cover;
+    }
+    .imagen-articulo3{
+        width: 95%;
+        height: 43%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+       background-image: url('comida.jpg');
+       background-size: cover;
+    
+    }
+    .imagen-articulo2{
+        width: 95%;
+        height: 43%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        background-image: url("fuji.jpg");
+        background-size: cover;
+    
+    }
+    .imagen-articulo1{
+        width: 95%;
+        height: 43%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    background-image: url("sakura.jpg");
+    background-size: center;
+    
+    
+    }
+    /*----Imagenes del Articulo----*/
+    
+    
+    
+    /*---Texto superior image---*/
+    
+    
+    .texto-imagen-articulo{
+    width: 90%;
+    
+    height: 10%;
+position: relative;
+  bottom: 10px;
+        color:  rgb(239, 239, 113);
+    }
+
+    /*---Texto superior image---*/
+    
+    
+    /*---Titulo del articulo---*/
+    .titulo-articulo{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+       font-family: sans-serif;
+        margin-top: 5px;
+    
+        color: aliceblue;
+        width: 95%;
+        height: 12%;
+        background-color: rgb(245, 88, 93);
+    
+        .posicion-titulo{
+            width: 90%;
+            margin-top: 4%;
+            height: 10%;
+    
+    
+        }
+    
+    
+    
+    }
+    /*---Titulo del articulo---*/
+    
+    
+    /*---Texto del articulo---*/
+    
+    .articulo-texto{
+        display: flex;
+        width: 100%;
+        height: 35%;
+    }
+    .texto-articulo{
+        width: 50%;
+        margin-left: 10px ;
+        margin-right: 10px;
+    font-size: small;
+    
+    
+    }
+    
+    .texto-articulo1{
+        font-size: small;
+        text-align: left;
+    }
+    
+    .Leer-mas{
+        font-size: small;
+        position: relative;
+     
+    }
+    .Leer-mas1{
+        font-size: small;
+    position: relative;
+top: 40px;
+ 
+    }
+    .Leer-mas3{
+        font-size: small;
+        position: relative;
+        top: 49px;
+        
+        }
+    
+        .Leer-mas2{
+            font-size: small;
+            position: relative;
+            top: 29px;
+            
+            }
+            .Leer-mas4{
+                font-size: small;
+                position: relative;
+                top: 46px;
+                
+             
+                }
+    /*---Texto del articulo---*/
+    
+    
+    /*--nav--*/
+    
+    .nav{
+        height: 200px;
+        position: relative;
+        weidth:  384px;
+        font-size: small;
+    text-align: center;
+right: 230px;
+    top: 940px;
+    }
+    
+    
+    /*--nav--*/
+    
+    
+    /*---Articulos---*/
+    
+    
+    
+    
+    
+    /*--Publicidad--*/
+    .publicidad{
+      margin-left: auto;
+        flex-wrap: wrap;
+ margin-top: 10px ;
+        width: 768px;
+        height: 200px;
+      
+        border: solid gainsboro 10px;
+        background-color:  gainsboro;
+    
+       
+    }
+    
+    .titulo-publicidad{
+        text-align: center;
+    }
+    .publicidad-texto{
+    
+        margin-left: auto;
+        text-align: center;
+    
+    }
+    
+    /*--Publicidad--*/
+    
+    
+    
+    /*--footer--*/
+    
+    footer{
+        background-color: gainsboro;
+        display: flex;
+    position: relative;
+  margin-top: 215px;
+      height: 30px;
+    }
+    .posicion{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto ;
+        height: 100%;
+        width: 95%;
+        background-color: rgb(242, 241, 241);
+     
+    }
+    .texto-footer{
+     margin-bottom: 20%;
+       position: relative;
+       bottom: 10px;
+    text-align: center;
+    height: 90%;
+    width: 90%;
+    }
+    
+    
+    /*--footer--*/
+    
+    @keyframes cambio-de-fondo-titulo{
+      
+       
+    
+        to{
+     padding: 100px;
+        }
+    
+    }
+    
+}
+
+
