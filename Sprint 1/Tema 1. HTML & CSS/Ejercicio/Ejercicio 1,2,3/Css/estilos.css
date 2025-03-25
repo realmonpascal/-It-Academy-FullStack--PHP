@@ -1,0 +1,556 @@
+
+body{
+    width: 1200px;
+   
+}
+header{
+    background-color: white;
+    border: 10px solid black;
+    height: 90px;
+    width: 1200px;
+
+    display: flex;
+    flex-wrap: flex-start;
+  
+}
+.logo{
+    background-color: red;
+    border: 10px solid gray;
+    height: 70px;
+    width: 5%;
+    margin-top: 0px;
+     flex-grow: 1;
+
+    
+}
+.social{   
+    background-color: red;
+    border: 10px solid gray;
+    flex-grow: 1;
+    margin-top: 0px;
+    width: auto;
+    height: 70px;
+}
+.nav{ 
+    background-color: red;
+    width: 40%;
+    border: 10px solid gray;
+    height: 70px;
+    flex-grow: 1;
+    margin-top: 0px;
+}
+aside{
+  
+    width: 920px;
+    height: 315px;
+    display:flex;
+    border: 10px solid black;
+   
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-right: 0px;
+    flex-grow: 1;
+}
+.article1{   
+    border: 10px solid gray;
+    background-color: blue;
+    width: 440px;
+    height: 82px;
+    margin: 0%;
+}
+.article2{   
+    border: 10px solid gray;
+    background-color: blue;
+    width: 440px;
+    height: 82px;
+    margin: 0%;
+}
+.article3{   
+    border: 10px solid gray;
+    background-color: blue;
+    width: 440px;
+    height: 82px;
+    margin: 0%;
+}
+.article4{   
+    border: 10px solid gray;
+    background-color: blue;
+    width: 440px;
+    height: 82px;
+    margin: 0%;
+}
+.navegacion{
+    border: 10px solid gray;
+    background-color: gold;
+    width: 100%;
+    height: 30%;
+   margin: 0%;
+ 
+}
+main{
+    display: flex;
+    flex-direction: column;
+width: 250px;
+   height: 315px;;
+    border: 10px solid black;
+    position: relative;
+   bottom: 335px;
+    left:  650px;
+    margin-left: 23.5%;
+    background-color: aqua;
+}
+.Banner{
+   
+    background-color: yellow;
+    border: 10px solid gold;
+    height: 60%;
+    width: 95%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto ;
+  
+}
+.banner{ display:flex;
+    margin-top: 0px;
+    height: 140px;
+    width: 1200px;
+    border: 10px solid black;
+    background-color: gold;
+}
+
+figure{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.publicidad1{
+    margin-top: 10%;
+    background-color: brown;
+    width: 150px;
+    border: 2px solid brown;
+    height: 20%;
+    text-align: justify;
+  
+
+    margin-left: 20%;
+    transition: background 2s;
+}
+
+.publicidad2{
+    width: 150px;
+    height: 20%;
+    background-color: brown;
+    border: 2px solid brown;
+    margin-top: 1%;
+    text-align: justify;
+
+    margin-left: 20%;
+    transition: background 2s;
+    
+}
+
+footer{
+    
+    margin-top: 0px;
+    position: relative;
+    bottom: 290px;
+    height: 60px;
+    background-color: aqua;
+    border: 10px solid black;
+ 
+    
+}
+
+
+@media (max-width :768px){
+    body{
+        width: 768px;
+       
+    }
+    header{
+background-color: white;
+border: 10px solid black;
+        width: 70%;
+     height: 230px;
+        display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       flex: grow 1;
+    }
+    .logo{
+        background-color: red;
+        border: 5px solid gray;
+        height: 28%;
+        width:  99%;
+        margin-bottom: 0px;
+        position: relative;
+      flex: grow 1;
+     
+    
+        
+    }
+    .social{   
+        background-color: red;
+        border: 5px solid gray;
+        flex: grow 1;
+        margin-top: 0px;
+        position: relative;
+      
+        margin-bottom: 0px;
+        width:  99%;
+        height: 28%;
+       
+    }
+    .nav{ 
+        background-color: red;
+        width: 99%;
+        position: relative;
+        
+        margin-bottom: 0px;
+        border: 5px solid gray;
+        height: 28%;
+        flex: grow 1;
+        margin-top: 0px;
+    }
+    aside{
+      
+        width: 70%;
+        height: 280px;
+        display:flex;
+        border: 10px solid black;
+       
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-right: 0px;
+        flex-grow: 1;
+    }
+    .article1{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 248.7px;
+        height: 70px;
+        margin: 0%;
+    }
+    .article2{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 248.7px;
+        height: 70px;
+        margin: 0%;
+    }
+    .article3{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 248.7px;
+        height: 70px;
+        margin: 0%;
+    }
+    .article4{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 248.7px;
+        height: 70px;
+        margin: 0%;
+    }
+    .navegacion{
+        border: 10px solid gray;
+        background-color: gold;
+        width: 100%;
+        height: 30%;
+       margin: 0%;
+     
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+       height: 315px;;
+        border: 10px solid black;
+        margin-top: 0px;
+        margin-left: 0px;
+        bottom: 5px;
+        position: relative;
+    left: auto;
+      
+       
+       
+        background-color: aqua;
+    }
+    .Banner{
+   
+        background-color: yellow;
+        border: 10px solid gold;
+        height: 70%;
+        width: 95%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto ;
+      
+    }
+  
+    .banner{ display:flex;
+        margin-top: 0px;
+        height: 140px;
+        width: 70%;
+        border: 10px solid black;
+        background-color: gold;
+    }
+    .publicidad{
+        position: relative;
+        margin-right: auto;
+        margin-top: 5%;
+        height: auto;
+        width: auto;
+    }
+
+    .publicidad1{
+      
+        background-color: brown;
+        width: 90%;
+        border: 2px solid brown;
+        height: 70%;
+        text-align: justify;
+        background-color: brown;
+    margin-top: 4%;
+        margin-left: auto;
+        margin-right: auto;
+  
+    }
+    
+    .publicidad2{
+        width: 90%;
+        height: 70%;
+        background-color: brown;
+        border: 2px solid brown;
+        margin-top: 1%;
+        text-align: justify;
+    
+        margin-left: auto;
+        margin-right: auto;
+       
+
+      
+        
+    }
+    
+    footer{
+        width: 70%;
+        margin-top: 70px;
+        position: relative;
+        bottom: 20px;
+        height: 60px;
+        background-color: aqua;
+        border: 10px solid black;
+        
+        
+        
+    }
+
+
+}
+@media (max-width :480px){
+    body{
+        width: 480px;
+       
+    }
+    header{
+background-color: white;
+border: 10px solid black;
+        width: 70%;
+     height: 230px;
+        display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       flex: grow 1;
+    }
+    .logo{
+        background-color: red;
+        border: 5px solid gray;
+        height: 28%;
+        width:  99%;
+        margin-bottom: 0px;
+        position: relative;
+      flex: grow 1;
+     
+    
+        
+    }
+    .social{   
+        background-color: red;
+        border: 5px solid gray;
+        flex: grow 1;
+        margin-top: 0px;
+        position: relative;
+      
+        margin-bottom: 0px;
+        width:  99%;
+        height: 28%;
+       
+    }
+    .nav{ 
+        background-color: red;
+        width: 99%;
+        position: relative;
+        
+        margin-bottom: 0px;
+        border: 5px solid gray;
+        height: 28%;
+        flex: grow 1;
+        margin-top: 0px;
+    }
+    aside{
+      
+        width: 70%;
+        height: 550px;
+        display:flex;
+        flex-direction: column;
+        border: 10px solid black;
+       
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-right: 0px;
+        flex-grow: 1;
+    }
+    .article1{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 92.5%;
+        height: 70px;
+        margin: 0%;
+        flex: grow 1;
+    }
+
+    .article2{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 92.5%;
+        height: 70px;
+        margin: 0%;
+        flex: grow 1;
+    }
+    .article3{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 92.5%;
+        flex: grow 1;
+        height: 75px;
+        margin: 0%;
+    }
+    .article4{   
+        border: 10px solid gray;
+        background-color: blue;
+        width: 92.5%;
+        height: 70px;
+        flex: grow 1;
+        margin: 0%;
+    }
+    .navegacion{
+        border: 10px solid gray;
+        background-color: gold;
+        width: 96%;
+        flex: grow 1;
+        position: relative;
+     
+      margin-bottom: 0px;
+        height: 30%;
+      
+     
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+       height: 315px;;
+        border: 10px solid black;
+        margin-top: 0px;
+        margin-left: 0px;
+        bottom: 5px;
+        position: relative;
+    left: auto;
+      
+       
+       
+        background-color: aqua;
+    }
+    .Banner{
+   
+        background-color: yellow;
+        border: 10px solid gold;
+        height: 70%;
+        width: 95%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto ;
+      
+    }
+  
+    .banner{ display:flex;
+        margin-top: 0px;
+        height: 140px;
+        width: 70%;
+        border: 10px solid black;
+        background-color: gold;
+    }
+    .publicidad{
+        position: relative;
+        margin-right: auto;
+        margin-top: 5%;
+        height: auto;
+        width: auto;
+    }
+
+    .publicidad1{
+      
+        background-color: brown;
+        width: 80%;
+        border: 2px solid brown;
+        height: 60%;
+        text-align: justify;
+        background-color: brown;
+    margin-top: 4%;
+        margin-left: auto;
+        margin-right: auto;
+  
+    }
+    
+    .publicidad2{
+        width: 80%;
+        height: 60%;
+        background-color: brown;
+        border: 2px solid black;
+        margin-top: 1%;
+        text-align: justify;
+    
+        margin-left: auto;
+        margin-right: auto;
+       
+
+      
+        
+    }
+    
+    footer{
+        width: 70%;
+        margin-top: 70px;
+        position: relative;
+        bottom: 20px;
+        height: 60px;
+        background-color: aqua;
+        border: 10px solid black;
+        
+        
+        
+    }
+
+
+}
+  
+
+    
