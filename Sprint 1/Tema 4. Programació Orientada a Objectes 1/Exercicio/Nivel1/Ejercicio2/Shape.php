@@ -2,28 +2,12 @@
 
 
 class Shape{
-public $amplada;
-public $altura;
-public function __construct() {
-    $this->amplada;
-    $this->altura;
+protected  $amplada;
+protected  $altura;
+public function __construct( $amplada ,$altura) {
+    $this->amplada=$amplada;
+    $this->altura=$altura;
     
 }
-public function getAmplada(){
-    return $this->amplada;
-}
-public function getAltura(){
-  
-    return $this->altura;
-}
-public function setAmplada($amplada) {
-    $this->amplada = $amplada;
-}
 
-public function setAltura($altura) {
-    $this->altura = $altura;
-}
-function calcularArea( ){
-    return ;
-}
 }?>
