@@ -1,20 +1,22 @@
 <?php
-include('Objeto.php');
+include('Employee.php');
 
 
 
 
 
 $Empleado = new Employee();
-$Empleado->nombre ="Ramon";
-$Empleado->sueldo =6500;
+$Empleado->setNombre('Ramon');
+
+
+$Empleado->setSueldo(6001);
 
 echo $Empleado->comprobarImpuestos()."<br>";
 
 $Empleado1 = new Employee();
-$Empleado1->nombre ="Gamon";
-$Empleado1->sueldo =2500;
+$Empleado1->setNombre('Gamon');
 
+$Empleado1->setSueldo(5999);
 echo $Empleado1->comprobarImpuestos();
 
 

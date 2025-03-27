@@ -1,8 +1,17 @@
 <?php
-class Employee{
-public $nombre;
-public $sueldo;
 
+
+class Employee{
+private  $nombre;
+private $sueldo;
+
+public function setNombre(string $nombre): void {
+    $this->nombre = $nombre;
+}
+
+public function setSueldo(float $sueldo): void {
+    $this->sueldo = $sueldo;
+}
 
 
  function comprobarImpuestos(){
@@ -12,7 +21,8 @@ public $sueldo;
     }else {
 
         return $this->nombre." no has de pagar impuestos";
-    }}
+    }
+}
 }
 
 ?>
