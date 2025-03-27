@@ -1,7 +1,7 @@
 <?php
-require('Objetos/Gallina.php');
-require('Objetos/perro.php');
-require('Objetos/Gato.php');
+require('Animales/Gallina.php');
+require('Animales/perro.php');
+require('Animales/Gato.php');
 
 
 
