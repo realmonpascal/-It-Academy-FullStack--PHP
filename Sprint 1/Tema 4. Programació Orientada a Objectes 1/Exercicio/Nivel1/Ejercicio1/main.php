@@ -5,18 +5,18 @@ include('Employee.php');
 
 
 
-$Empleado = new Employee();
-$Empleado->setNombre('Ramon');
+$Empleado = new Employee('Ramon',6500);
 
 
-$Empleado->setSueldo(6001);
+
+
 
 echo $Empleado->comprobarImpuestos()."<br>";
 
-$Empleado1 = new Employee();
-$Empleado1->setNombre('Gamon');
+$Empleado1 = new Employee('Gamon',5999);
 
-$Empleado1->setSueldo(5999);
+
+
 echo $Empleado1->comprobarImpuestos();
 
 

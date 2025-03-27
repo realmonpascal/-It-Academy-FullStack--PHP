@@ -1,28 +1,21 @@
 <?php
 
+declare(strict_types=1);
 
-class Employee{
-private  $nombre;
-private $sueldo;
+class Employee {
+    private string $nombre;
+    private float $sueldo;
 
-public function setNombre(string $nombre): void {
-    $this->nombre = $nombre;
-}
+    public function __construct(string $nombre, float $sueldo) {
+        $this->nombre = $nombre;
+        $this->sueldo = $sueldo;
+    }
 
-public function setSueldo(float $sueldo): void {
-    $this->sueldo = $sueldo;
-}
-
-
- function comprobarImpuestos(){
-
-    if($this->sueldo>6000){
-        return $this->nombre." Has de pagar impuestos";
-    }else {
-
-        return $this->nombre." no has de pagar impuestos";
+    public function comprobarImpuestos(): string {
+        if($this->sueldo > 6000){
+            return  $this->nombre." has de pagar impuestos";
+        }
+        return $this->nombre .  " no has de pagar impuestos";
     }
 }
-}
-
 ?>
