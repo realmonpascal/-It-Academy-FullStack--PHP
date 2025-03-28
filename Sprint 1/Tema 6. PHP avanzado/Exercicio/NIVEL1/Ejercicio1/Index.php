@@ -39,10 +39,10 @@
     </form>
    
    <?php
-// Iniciar sesión al principio del script
+
 session_start();
 
-// Procesamiento de datos POST
+
 echo "<div class='form-results'>";
     
 if(isset($_POST["name"])) {
