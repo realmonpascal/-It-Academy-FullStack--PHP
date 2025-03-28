@@ -25,12 +25,7 @@
     </div>
   
   
-    <div class="input-container">
-        <input type="text" name="email" placeholder="Email">
-        <i class="fa-solid fa-envelope"></i>
-
   
-    </div>
     <div class="input-container">
         <input type="text" name="phone" placeholder="Telefono">
         <i class="fa-solid fa-phone"></i>
@@ -42,32 +37,36 @@
     </div>
     
     </form>
-    <?php
-     if(isset($_POST["name"])) {
-     
-        echo "<p>Nombre: " . htmlspecialchars($_POST["name"]) . "</p>";
-    } else {
-        echo "<p>No se recibió nombre</p>";
-    }
+   
+   <?php
+// Iniciar sesión al principio del script
+session_start();
 
-    if(isset($_POST["UserName"])) {
-        echo "<p>Username: " . htmlspecialchars($_POST["UserName"]) . "</p>";
-    } else {
-        echo "<p>No se recibió email</p>";
-    }
+// Procesamiento de datos POST
+echo "<div class='form-results'>";
     
-    if(isset($_POST["email"])) {
-        echo "<p>Email: " . htmlspecialchars($_POST["email"]) . "</p>";
-    } else {
-        echo "<p>No se recibió email"."<br>";
-    }
+if(isset($_POST["name"])) {
+    echo "<p>Nombre: " . ($_POST["name"]) . "</p>";
+} else {
+    echo "<p class='error'>No se recibió nombre</p>";
+}
 
-    if(isset($_POST["phone"])) {
-        echo "<p>Phone: " . htmlspecialchars($_POST["phone"]) . "</p>";
-    } else {
-        echo "<p>No se recibió el telefono"."</p>";
-    }
-   ?>
+if(isset($_POST["UserName"])) {
+
+    $_SESSION['UserName'] = ($_POST["UserName"]);
+    echo "<p>Username: " . ($_POST["UserName"]) . "</p>";
+} else {
+    echo "<p class='error'>No se recibió username</p>";
+}
+
+
+
+if(isset($_SESSION['UserName'])) {
+    echo "<h1>Bienvenido, " . ($_SESSION['UserName']) . "!</h1>";
+}
+
+echo "</div>";
+?>
  
 </body>
 </html>
