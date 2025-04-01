@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"EmailTest::testCanBeCreatedFromValidEmail":0.008,"EmailTest::testCannotBeCreatedFromInvalidEmail":0.002,"NumberCheckerTest::testIsEven":0.007,"NumberCheckerTest::testIsPositive":0,"NumberCheckerTest::testBoundaryCases":0,"NumberCheckerTest::testConstructorTypeHint":0.001}}
