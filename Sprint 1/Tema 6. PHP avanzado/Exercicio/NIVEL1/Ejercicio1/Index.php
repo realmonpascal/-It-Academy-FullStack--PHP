@@ -8,27 +8,25 @@
 
 </head>
 <body>
-    <form method="post" autocomplete="off">
+    <form method="post" action="funcionalidad.php" autocomplete="off">
 
     <div class="input-group">
     <div class="input-container">
-        <input type="text" name="name" placeholder="Nombre">
+        <label for=""> Name : <input type="text" name="name" placeholder="Nombre"></label>
+       
         <i class="fa-solid fa-user"></i>
 
   
     </div>
     <div class="input-container">
-        <input type="text" name="UserName" placeholder="UserName">
+        <label for="">     Username:    <input type="text" name="UserName" placeholder="UserName"></label>
+
         <i class="fa-solid fa-user"></i>
 
   
     </div>
   
-  
-  
-    <div class="input-container">
-        <input type="text" name="phone" placeholder="Telefono">
-        <i class="fa-solid fa-phone"></i>
+
 
   
     </div>
@@ -38,35 +36,7 @@
     
     </form>
    
-   <?php
 
-session_start();
-
-
-echo "<div class='form-results'>";
-    
-if(isset($_POST["name"])) {
-    echo "<p>Nombre: " . ($_POST["name"]) . "</p>";
-} else {
-    echo "<p class='error'>No se recibió nombre</p>";
-}
-
-if(isset($_POST["UserName"])) {
-
-    $_SESSION['UserName'] = ($_POST["UserName"]);
-    echo "<p>Username: " . ($_POST["UserName"]) . "</p>";
-} else {
-    echo "<p class='error'>No se recibió username</p>";
-}
-
-
-
-if(isset($_SESSION['UserName'])) {
-    echo "<h1>Bienvenido, " . ($_SESSION['UserName']) . "!</h1>";
-}
-
-echo "</div>";
-?>
  
 </body>
 </html>

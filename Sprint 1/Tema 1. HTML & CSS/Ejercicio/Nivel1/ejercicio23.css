@@ -1,15 +1,17 @@
 body {
 
-max-width:  1200px;
+
 
 }
 header{
     display: flex;
-    width: auto;
-    height: 30%px;
-    border: solid black 15px;
 
+    width: auto;
+    height: auto;
+  
+    border: solid black 10px;
 }
+
 .logo,.social{
     border: solid blue 10px;
     width: 20%;
@@ -25,8 +27,8 @@ header{
     display: flex;
     background-color: gold;
     height: 100px;
-    margin-top: 0px;
-    border: solid black 15px;
+
+    border: solid black 10px;
     
 }
 .Banner{
@@ -42,43 +44,55 @@ header{
 
 
 .asidemain{
-    margin-top: 10px;
+    margin-top: 20px;
 display: flex;
     width: auto;
-    height: 300px;
+    height: auto;
     border: solid black 5px;
+}
+.union{
+    border: solid gray 10px;
+    height: auto;
+
 }
 aside{
 display: flex;
 flex-direction: column;
     width: 80%;
     border: solid black 10px;
+    height: 
 }
 .cuadrado{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-    height: 70%;
+    width: auto;
+    height: auto;
+
 }
 .article{
 
 display: flex;
 flex-grow: 1;
     background-color: blue;
-    width: 45%;
+    width: 40%;
+
     border: solid gray 10px;
 }
 .Article{
     font-size: 20px;
 margin-top: auto;
   margin-left: 20px;
+  width: auto;
+  height: auto;
+
 }
 .navigation{
     display: flex;
     position: relative;
     display: flex;
     width: auto;
-    height: 30%;
+    height: auto;
     border: solid gray 10px;
     background-color: beige;
 }
@@ -99,21 +113,23 @@ main{
 .publicidad{
 margin-left: auto;
 margin-right: auto;
-margin-top: 45px;
+margin-top: 10%;
 background-color: brown;
-    width: 80%;
+height: 20%;
+    width: 70%;
 }
 .publicidad1{
     margin-left: auto;
 margin-right: auto;
 margin-top: 10px;
 background-color: brown;
-    width: 80%;
+height: 20%;
+    width: 70%;
 }
 
 footer{
 background-color: orange;
-    margin-top: 10px;
+    margin-top: 20px;
     border: solid black 10px;
 }
 

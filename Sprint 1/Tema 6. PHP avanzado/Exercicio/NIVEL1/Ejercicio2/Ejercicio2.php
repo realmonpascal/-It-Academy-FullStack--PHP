@@ -8,16 +8,16 @@ echo "Ruta del archivo: " . __FILE__."<br>";
 
 class ProbadordeConstantesMagicas{
 
-    public function __getInfo(){
+    public function getFUNCTION(){
        return  "Esta funcion se llama:  ".__FUNCTION__;
     }
-    public function __getInfa(){
+    public function MostrarNombreClasse(){
         return  " Esta Classe se llama: ".__CLASS__." nombre ";
    
     }
 }
 
 $constanteMagica = new ProbadordeConstantesMagicas();
-echo $constanteMagica->__getInfo();
-echo $constanteMagica->__getInfa();
+echo $constanteMagica->getFUNCTION()."<br>";
+echo $constanteMagica->MostrarNombreClasse();
 ?>
