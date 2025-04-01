@@ -1,22 +1,22 @@
 body {
 
-
+max-width:  1200px;
 
 }
 header{
     display: flex;
     width: auto;
-    height: 40px;
-    border: solid black 2px;
+    height: 30%px;
+    border: solid black 15px;
 
 }
 .logo,.social{
-    border: solid black 2px;
+    border: solid blue 10px;
     width: 20%;
     background-color: red;
 }
 .nav{
-    border: solid black 2px;
+    border: solid blue 10px;
     width: 60%;
     background-color: red;
 }
@@ -26,7 +26,7 @@ header{
     background-color: gold;
     height: 100px;
     margin-top: 0px;
-    border: solid black 2px;
+    border: solid black 15px;
     
 }
 .Banner{
@@ -46,13 +46,13 @@ header{
 display: flex;
     width: auto;
     height: 300px;
-    border: solid black 2px;
+    border: solid black 5px;
 }
 aside{
 display: flex;
 flex-direction: column;
     width: 80%;
-    border: solid black 4px;
+    border: solid black 10px;
 }
 .cuadrado{
     display: flex;
@@ -65,8 +65,8 @@ flex-direction: column;
 display: flex;
 flex-grow: 1;
     background-color: blue;
-    width: 49%;
-    border: solid gray 2px;
+    width: 45%;
+    border: solid gray 10px;
 }
 .Article{
     font-size: 20px;
@@ -79,7 +79,7 @@ margin-top: auto;
     display: flex;
     width: auto;
     height: 30%;
-    border: solid gray 2px;
+    border: solid gray 10px;
     background-color: beige;
 }
 
@@ -91,6 +91,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 20%;
+    border: solid black 10px;
     background-color: aqua;
 }
 
@@ -113,14 +114,14 @@ background-color: brown;
 footer{
 background-color: orange;
     margin-top: 10px;
-    border: solid black 2px;
+    border: solid black 10px;
 }
 
 @media(max-width :768px){
     header{
         flex-direction: column;
 
-        height: 162px;
+        height: auto;
 
     }
 
@@ -131,7 +132,7 @@ background-color: orange;
 .asidemain{
     flex-direction: column;
 
-    height: 700px;
+    height: 400px;
 }
 aside{
 
@@ -144,10 +145,18 @@ main{
     height: 40%;
     
 }
-.publicidad,.publicidad1{
-
+.publicidad{
    
-    height: 25%;
+    margin-top: auto; 
+    height: 35%;
+    width: 95%;
+}
+
+.publicidad1{
+margin-top: 10px;
+margin-bottom: auto;
+   
+    height: 35%;
     width: 95%;
 }
 
