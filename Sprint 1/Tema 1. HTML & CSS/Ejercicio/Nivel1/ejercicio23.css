@@ -41,6 +41,7 @@ header{
 .Banner{
     display: flex;
     background-color: yellow;
+    border: solid gold 10px;
     width: 98%;
     height: 80%;
     margin-left: auto;
@@ -84,7 +85,7 @@ flex-grow: 1;
     background-color: blue;
     width: 35%;
 
-    border: solid gray 5px;
+    border: solid gray 10px;
 }
 .Article{
     font-size: 20px;
@@ -100,7 +101,7 @@ margin-top: auto;
     display: flex;
     width: auto;
     height: auto;
-    border: solid gray 5px;
+    border: solid gray 10px;
     background-color: beige;
 }
 
@@ -123,7 +124,7 @@ margin-right: auto;
 margin-top: 10%;
 background-color: brown;
 height: 20%;
-    width: 89%;
+    width: 86%;
 }
 .publicidad1{
     margin-left: auto;
@@ -131,13 +132,13 @@ margin-right: auto;
 margin-top: 10px;
 background-color: brown;
 height: 20%;
-    width: 89%;
+    width: 86%;
 }
 
 footer{
 background-color: orange;
     margin-top: 20px;
-    border: solid black 10px;
+    border: solid black 5px;
 }
 
 @media(max-width :768px){
@@ -188,14 +189,14 @@ main{
    
    margin-top: 10px;
 
-    width: 98%;
+    width: 97%;
 }
 
 .publicidad1{
 
    margin-bottom: 10px;
 
-    width: 98%;
+    width: 97%;
 }
 
 }
@@ -208,9 +209,7 @@ aside{
 .asidemain{
 
 }
-main{
-    height: ;
-}
+
     .article {
         flex-direction: column;
         height: 20%;
